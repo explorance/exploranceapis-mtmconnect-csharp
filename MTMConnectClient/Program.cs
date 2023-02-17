@@ -44,7 +44,7 @@ namespace MTMConnectClient
             #region Export
             Export export = new Export();
             CourseFilterRequest request = SampleRequest<CourseFilterRequest>.GetSampleRequest();
-            request.CourseActive = false;
+            request.CourseActive = true;
             var response = export.GetEntities<CourseFilterRequest, Course>(request, baseUrl, tokenResponse.access_token);
             Console.WriteLine("Export Response");
             Console.WriteLine(JsonConvert.SerializeObject(response, Newtonsoft.Json.Formatting.Indented));
