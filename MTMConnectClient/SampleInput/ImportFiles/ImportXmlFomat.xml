@@ -1,0 +1,17 @@
+﻿<import date="7/15/2021 2:02:06 AM" src="234235">
+	<classes>
+		<class xid="MTMCls_730201251" sd="07/27/2021" ed="07/27/2021" xcourse="MTMCls_730201251_A" lm="17" xloc="MTMLoc_730201251_A" xvendor="18503" classname="MTM Class 730201251" survey="true" xclient="MTMClient_730201251_A" xbunit="MTMBU_730201251" >
+			<classInstructor xid="MTMIns_7302022_A" replace="false"/>
+			<survey sid="31496" />
+			<student xid="MTMStud_john" firstname="John" lastname="S" identifiertype="email" identifier="sjohn@test123.com" jt="5"  xclient="MTMClient_730201251_A" xbunit="MTMBU_730201251" langpref="en" cancel="false">
+				<manager xid="MTMMan_bill" email="sbill@test123.com" name="Bill S"/>
+			</student>
+			<student xid="MTMStud_adam" identifier="jadam@test123.com" >
+        <manager xid="MTMMan_bill" email="sbill@test123.com" name="Bill S"/>
+			</student>
+			<student xid="MTMStud_rraj" identifier="rraj@test123.com" >
+        <manager xid="MTMMan_bill" email="sbill@test123.com" name="Bill S"/>
+			</student>
+		</class>
+	</classes>
+</import>

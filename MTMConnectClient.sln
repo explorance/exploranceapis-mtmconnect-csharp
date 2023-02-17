@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTMConnectClient", "MTMConnectClient\MTMConnectClient.csproj", "{C1DB05DD-7A68-4379-BD3D-0370D0B1300E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTMConnect.SDK", "MTMConnect.SDK\MTMConnect.SDK.csproj", "{54EE0556-9512-4CF6-B4D7-5A4D02DB0D79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1DB05DD-7A68-4379-BD3D-0370D0B1300E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1DB05DD-7A68-4379-BD3D-0370D0B1300E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1DB05DD-7A68-4379-BD3D-0370D0B1300E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1DB05DD-7A68-4379-BD3D-0370D0B1300E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54EE0556-9512-4CF6-B4D7-5A4D02DB0D79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54EE0556-9512-4CF6-B4D7-5A4D02DB0D79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54EE0556-9512-4CF6-B4D7-5A4D02DB0D79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54EE0556-9512-4CF6-B4D7-5A4D02DB0D79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8112681A-F66C-4BCE-BCB7-8DCE8F1F9BC6}
+	EndGlobalSection
+EndGlobal
